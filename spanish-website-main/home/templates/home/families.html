@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+    <title>GUATEMALA RESEARCH PROJECT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/families-style.css' %}">
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
+    
+
+    <script src="{% static 'js/index.js'%}"></script>
+</head>
+
+<html>
+    <body>
+        <div id="bg"> 
+            <div id="bg-stripes">
+                <div id="str1" class="drop-shadow"></div>
+                <div id="str2" class="drop-shadow"></div>
+            </div>
+        <div>
+        <div id="title" class="drop-shadow">
+            <a href="/"><p id="title-text-english">GUATEMALA RESEARCH PROJECT</p></a>
+            <a href="/"><p id="title-text">GUATEMALA PROYECTO DE INVESTIGACIÓN</p></a>
+            <div id="title-border"></div>
+        </div>
+        <div id="content">
+            <div id="header" class="drop-shadow content-item oswald" style="--id: 0;">F A M I L I A S</div>
+            <div id="main-content">
+                <div id="p1" class="drop-shadow content-item" style="--id: 1;">
+                    <h1>FAMILY TRADITIONS/CUSTOMS</h1>
+                    <p class="inter">
+                        <ul id="p1-spanish" class="inter">
+                            <li>Las familias pasan tiempo juntas durante las comidas.</li>
+                            <li>La gente saluda a todos (incluso a desconocidos).</li>
+                            <li>Normalmente solo se casan con personas de su propio pueblo.</li>
+                            <li>La gente depende de la comunidad para ayudarse mutuamente.</li>
+                        </ul>
+
+                        <ul id="p1-english" class="inter">
+                            <li>Families spend time together during meals</li>
+                            <li>People greet everyone (even strangers)</li>
+                            <li>They typically only marry people from inside their village</li>
+                            <li>People rely on community to help each other</li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="image1" class="drop-shadow content-item" style="--id: 2;"></div>
+                <div id="p2" class="drop-shadow content-item" style="--id: 3">
+                    <h1>FAMILY LIFE</h1>
+                    <p class="inter">
+                        <ul id="p2-spanish" class="inter">
+                            <li>Los padres son muy protectores con sus hijos.</li>
+                            <li>Las familias pasan mucho tiempo con sus parientes extendidos.</li>
+                            <li>La mayoría de las familias son nucleares, pero incluyen mucho a la familia extendida.</li>
+                            <li>Los hombres son líderes, las mujeres son el 'núcleo moral' y están a cargo del hogar.</li>
+                        </ul>
+
+                        <ul id="p2-english" class="inter">
+                            <li>Parents are very protective of their children.</li>
+                            <li>Families spend lots of time with their extended family members.</li>
+                            <li>Most families are nuclear, but heavily include extended family.</li>
+                            <li>Men are leaders, women are the “moral core” and are in charge of the home.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="image2" class="drop-shadow content-item" style="--id: 4;"></div>
+                <div id="video" class="drop-shadow content-item" style="--id: 5;"><iframe width="560" height="315" src="https://www.youtube.com/embed/V-isuWCXlbk?si=0rL9mG_y1ryyLAxm&amp;start=611&end=652" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </body>
+</html>

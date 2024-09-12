@@ -1,0 +1,162 @@
+#bg-stripes {
+    transform: translateX(0%) rotate(-12deg);
+}
+
+#title {
+    height: 7vh;
+}
+
+#title-text {
+    z-index: 100;
+}
+
+#title-border {
+    width: 30%;
+}
+
+#header {
+    position: absolute; 
+    width: 40%;
+    height: 5%;
+    left: 2%; 
+    top: 4%; 
+    text-align: center;
+    align-content: center;
+}
+
+#p1 {
+    position: absolute;
+    width: 40%;
+    height: 44%;
+    top: 54%;
+    left: 2%;
+}
+
+#image1 {
+    position: absolute;
+    width: 40%;
+    height: 39%;
+    top: 12%;
+    left: 2%;
+    background-image: url("../images/content/family.jpg");
+    background-size: cover;
+}
+
+#p2 {
+    position: absolute;
+    width: 54%;
+    height: 55%;
+    top: 4%;
+    left: 44%;
+}
+
+#image2 {
+    position: absolute;
+    width: 20%;
+    height: 36%;
+    top: 62%;
+    left: 44%;
+    background-image: url("../images/content/family2.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+#video {
+    position: absolute;
+    width: 32%;
+    height: 36%;
+    top: 62%;
+    left: 66%;
+    overflow: hidden;
+}
+
+.content-item {
+    border: solid 0.1vmin #b1b1b1;
+    border-radius: 2vmin;
+    background-color: #d6d6d6;
+    font-size: 3vmin;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    transform: translateY(100vh) scale(0);
+    animation: content-intro 1s cubic-bezier(0.69, 0.2, 0.37, 0.91) forwards;
+    animation-delay: calc(0.05s * var(--id));
+}
+
+.content-item h1 {
+    padding: 0px; 
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: 350;
+}
+
+.content-item p {
+    padding-left: 1%;
+    padding-top: 1%;
+    margin: 0px;
+    width: 98%;
+}
+
+li {
+    margin: 3% 0;
+}
+
+#p2-english {
+    scale: 0;
+}
+
+#p1-english {
+    scale: 0;
+}
+
+#p2-spanish {
+    scale: 1;
+}
+
+#p1-spanish {
+    scale: 1;
+}
+
+.inter {
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.drop-shadow {
+    filter: drop-shadow(0.5px 1px 7px #29292977);
+}
+
+@keyframes title-intro {
+    to {
+        height: 7vh;
+    }
+}
+
+@keyframes title-border-intro {
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes content-intro {
+    to {
+        transform: translateY(0px);
+        animation-fill-mode: none;
+
+    }
+}
+
+@keyframes sidebar-slide {
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes content-intro {
+    to {
+        transform: translateY(0px) scale(1);
+    }
+}

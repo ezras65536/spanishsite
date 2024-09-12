@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+    <title>GUATEMALA RESEARCH PROJECT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
+
+    <script src="{% static 'js/index.js'%}"></script>
+</head>
+
+<html>
+    <body>
+        <div id="bg"> 
+            <div id="bg-stripes">
+                <div id="str1" class="drop-shadow"></div>
+                <div id="str2" class="drop-shadow"></div>
+            </div>
+        <div>
+        <div id="title" class="drop-shadow">
+            <a href="/"><p id="title-text-english">GUATEMALA RESEARCH PROJECT</p></a>
+            <a href="/"><p id="title-text">GUATEMALA PROYECTO DE INVESTIGACIÓN</p></a>
+            <div id="title-border"></div>
+        </div>
+        <div id="content">
+            <div class="content-line drop-shadow" id="line1">
+                <a href="families/"><div class="content-sphere" style="--id: 0;">
+                    <p class="content-text">FAMILIAS</p>
+                    <div class="content-image drop-shadow" style="background-image: url({% static 'images/content/child.jpg' %});"></div>
+                </div></a>
+                <div class="content-sphere" style="--id: 2; ">
+                    <div class="content-text">TOPIC 2</div>
+                    <div class="content-image drop-shadow" style="background-image: url({% static 'images/content/lake.jpg' %});"></div>
+                </div>
+                <div class="content-sphere" style="--id: 4; ">
+                    <p class="content-text">TOPIC 3</p>
+                    <div class="content-image drop-shadow" style="background-image: url({% static 'images/content/man.jpg' %});"></div>
+                </div>
+            </div>
+            <div class="content-line drop-shadow" id="line2">
+                <div class="content-sphere" style="--id: 1; ">
+                    <p class="content-text">TOPIC 4</p>
+                    <div class="content-image drop-shadow" style="background-image: url({% static 'images/content/market.jpg' %});"></div>
+                </div>
+                <div class="content-sphere" style="--id: 3; ">
+                    <p class="content-text">TOPIC 5</p>
+                    <div class="content-image drop-shadow" style="background-image: url({% static 'images/content/temple.jpg' %});"></div>
+                </div>
+            </div>
+            <!-- <div id="sidebar" class="drop-shadow sidebar-inactive">
+                <p class="drop-shadow">A</p>
+                <p class="drop-shadow">B</p>
+                <p class="drop-shadow">C</p>
+                <p class="drop-shadow">D</p>
+            </div> -->
+        </div>
+    </body>
+</html>
