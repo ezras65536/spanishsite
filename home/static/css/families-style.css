@@ -1,3 +1,32 @@
+#content {
+    position: absolute; 
+    width: 100%;
+    height: 200vh; 
+    left: 0px; 
+    top: 7vh; 
+    overflow-x: hidden; 
+}
+
+#main-content {
+    position: absolute; 
+    width: 100%; 
+    height: 100%;
+    top: 0px; 
+    left: 0px; 
+    overflow: hidden;
+    /* z-index: -10; */
+
+}
+
+#bg {
+    position: absolute; 
+    width: 100vw;
+    height: 200vh;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(-30deg, #ebebeb, #bebebe);
+}
+
 #bg-stripes {
     transform: translateX(0%) rotate(-12deg);
 }
@@ -33,9 +62,9 @@
 #header {
     position: absolute; 
     width: 40%;
-    height: 5%;
+    height: 2.5%;
     left: 2%; 
-    top: 4%; 
+    top: 2%; 
     text-align: center;
     align-content: center;
 }
@@ -43,16 +72,16 @@
 #p1 {
     position: absolute;
     width: 40%;
-    height: 44%;
-    top: 54%;
+    height: 22%;
+    top: 27%;
     left: 2%;
 }
 
 #image1 {
     position: absolute;
     width: 40%;
-    height: 39%;
-    top: 12%;
+    height: 19.5%;
+    top: 6%;
     left: 2%;
     background-image: url("../images/content/family.jpg");
     background-size: cover;
@@ -61,16 +90,16 @@
 #p2 {
     position: absolute;
     width: 54%;
-    height: 55%;
-    top: 4%;
+    height: 27.5%;
+    top: 2%;
     left: 44%;
 }
 
 #image2 {
     position: absolute;
     width: 20%;
-    height: 36%;
-    top: 62%;
+    height: 18%;
+    top: 31%;
     left: 44%;
     background-image: url("../images/content/family2.jpg");
     background-size: cover;
@@ -80,8 +109,8 @@
 #video {
     position: absolute;
     width: 32%;
-    height: 36%;
-    top: 62%;
+    height: 18%;
+    top: 31%;
     left: 66%;
     overflow: hidden;
 }
@@ -114,6 +143,7 @@
     margin: 0px;
     width: 98%;
     /* font-size: 2vmin; */
+    
 }
 
 li {
@@ -151,12 +181,19 @@ li {
 
 #p1-spanish {
     position: absolute; 
-    top: 0px;
-    left: 0px; 
+    top: 0%;
+    left: 0%; 
     width: 100%; 
     height: 100%;
-    /* transform: translateY(-8%); */
     scale: 1;
+}
+
+#story-container {
+    position: absolute; 
+    left: 2%; 
+    top: 50.5%; 
+    width: 96%; 
+    height: 50%; 
 }
 
 iframe {
